@@ -1,0 +1,39 @@
+<h3>{{page_title}}</h3>
+<div class="row align-item-center g-lg-5 py-5">
+      <div class="col-lg-12 fs-4">
+        <form class="p-4 p-md-5 border rounded-3 bg-light">
+          <h1 class="display-4 fw-bold lh-1 mb-3">ADD NEW ACCOUNT</h1>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" 
+          #accountEmail>
+            <label for="floatinglname">Email</label> 
+          </div>
+    <button class="btn btn-secondary"type="submit" (click)="add(accountEmail.value); accountEmail.value=''">Add</button>
+  </form>
+</div>
+  </div>
+<br>
+    <div class="container-fluid text-center">
+        <div class="row">
+        <div class="col-3" *ngFor="let account of accounts">
+        <div class="card mb-3" >
+        <div class="card-body" >
+            <img src="{{account.imgPath}}" class="img-thumbnail active">
+        </div>
+        <h2 class="text-warning">{{account.fname}} {{account.lname}}</h2>
+        <div class="card-body">
+            <span class="text-info">{{account.marital}} </span>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-info" [routerLink]="['/accounts', account.id]">
+                <i class="bi bi-info-circle"></i>View</button>
+                <button type="button" class="btn btn-info" (click)="delete(account)">
+                    <i class="bi bi-info-circle"></i>Delete</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+

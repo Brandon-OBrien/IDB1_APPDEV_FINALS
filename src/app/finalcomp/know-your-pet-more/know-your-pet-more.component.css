@@ -1,0 +1,61 @@
+.jumbotron{
+    background: #fff;
+    padding: 70px;
+}
+body{
+    background: #fff;
+
+}
+.form-area{
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+.row.single-form{
+    box-shadow: 0 2px 20px -5px #000000;
+}
+.left{
+    background: #557A95;
+    padding: 200px 98px;
+}
+.left h2{
+    font-family: poppins;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #fff;
+}
+.form-control{
+    border: 2px solid #557A95
+}
+.right button{
+    border: none;
+    border-radius: 0;
+    background: #557A95;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.right button:hover{
+    background: #7395AE;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+}

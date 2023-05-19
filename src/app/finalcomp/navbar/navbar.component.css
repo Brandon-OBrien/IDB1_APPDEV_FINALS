@@ -1,0 +1,16 @@
+.icons{
+    color: white;
+    padding:10px;
+    text-align: center;
+
+}
+.nav-brand{
+    color:white;
+}
+.header{
+    width:100%;
+    background-image: linear-gradient(to right,#557A95, #B1A296)
+}
+.nav-link{
+    color:#5D5C61!important;
+}

@@ -1,0 +1,216 @@
+.home{
+    font-size: 20px;text-align:center; 
+    text-align: center;
+    color: aliceblue;
+}
+
+.carousel-item{
+    height:440px;
+    
+}
+.jumbotron{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/kitten-playing-with-toy-mouse-royalty-free-image-590055188-1542816918.jpg?crop=1.00xw:0.758xh;0,0.132xh&resize=1200:*");
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+.div1{
+
+    color: rgb(255, 255, 255);
+    background-image: url("https://scontent.fcrk1-5.fna.fbcdn.net/v/t1.15752-9/342719156_777140393847493_5426227596101308413_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeF0jbxfjt6Gpz1BCIvYNrRcRo98LsINvTpGj3wuwg29Op57fYbCc-5RHSKyiLUfu7fY2AqX188DhH__RM9leRaR&_nc_ohc=Djc2O4SRzjEAX93XU7V&_nc_ht=scontent.fcrk1-5.fna&oh=03_AdSWPON8I-9uQ9e_JSzyUNXHi0aPuhC1MszFKcVh7JRReA&oe=647FF390");
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text1{
+    border: 100px;
+    padding: 250px;
+    margin: 10px;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    line-height: 1.0;
+    
+}
+
+.text2{
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+}
+
+.parallax1{
+	widows: 100%;
+	height: 650px;
+	background-image: url("cat.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+}
+
+.parallax1 h1{
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.content2 h1{
+	font-family: monospace;
+	font-size: 40px;
+	border-bottom: 3px solid orange;
+	width: 66%;
+    
+
+}
+
+.content2 {
+	width: 40%;
+	font-size: 19px;
+	padding: 20px;
+	text-align: justify;
+	margin-top: 100px;
+}
+
+.parallax2{
+	float: right;
+	width: 57%;
+	height: 500px;
+	margin-top: -540px;
+	background-image: url("happydog.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.parallax3{
+	width: 50%;
+	height: 480px;
+	background-image: url("bird.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin-top: 120px;
+}
+
+.content3{
+	margin-top: -560px;
+	width: 47%;
+	font-size: 18px;
+	padding: 20px;
+	letter-spacing: 2px;
+	float: right;
+	margin-bottom: 150px;
+}
+
+
+.content3 h1{
+	font-family: monospace;
+	font-size: 40px;
+	border-bottom: 3px solid orange;
+	width: 42%;
+
+}
+
+.content4 h1{
+	font-family: monospace;
+	font-size: 40px;
+	border-bottom: 3px solid orange;
+	width: 66%;
+    
+
+}
+
+.content4 {
+	width: 40%;
+	font-size: 21px;
+	padding: 20px;
+	text-align: justify;
+	margin-top: 100px;
+	margin-bottom: -40px;
+}
+
+.parallax4{
+	float: right;
+	width: 57%;
+	height: 420px;
+	margin-top: -420px;
+	background-image: url(https://scontent.fcrk1-3.fna.fbcdn.net/v/t1.15752-9/344186439_1364439894496705_5965536543261224984_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGLxr9aqk-WefqTcGkkM-s_jonF54LrQMWOicXngutAxUoHbQ-Nzt1Uv1mtsKfGj3CW5SGbGm5ZIytP9jbZalc8&_nc_ohc=eRYC_qnHzwAAX9YLZdk&_nc_ht=scontent.fcrk1-3.fna&oh=03_AdQjvW9OVBKxtyHcDf48RvfuF-QvZjBdClLLwsUqTOT-Ng&oe=6480085E);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.parallax5{
+	width: 53%;
+	height: 440px;
+	background-image: url(https://www.cdc.gov/healthypets/images/goldfish-in-aquarium.jpg?_=12220);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin-top: 120px;
+}
+
+.content5{
+	margin-top: -525px;
+	width: 47%;
+	font-size: 18px;
+	padding: 20px;
+	letter-spacing: 2px;
+	float: right;
+	margin-bottom: 150px;
+}
+
+
+.content5 h1{
+	font-family: monospace;
+	font-size: 40px;
+	border-bottom: 3px solid orange;
+	width: 42%;
+
+}
+
+.parallax6{
+	background-image: url("coverpet.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 850px;
+	margin-top: 0;
+}
+
+.content7 h1{
+	font-family: monospace;
+	font-size: 40px;
+	border-bottom: 3px solid orange;
+	width: 66%;
+    
+
+}
+
+.content7 {
+	width: 40%;
+	font-size: 21px;
+	padding: 20px;
+	text-align: justify;
+	margin-top: 100px;
+}
+
+.parallax7{
+	float: right;
+	width: 57%;
+	height: 420px;
+	margin-top: -470px;
+	background-image: url(https://www.vets4pets.com/siteassets/species/reptiles/lizard-reptile-on-branch.jpg?w=585&scale=down);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+
+

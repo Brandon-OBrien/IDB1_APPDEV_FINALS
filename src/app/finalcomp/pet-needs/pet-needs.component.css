@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+        width: 15%;
+        height: 15%;
+        float: left;
+}
+
+.card-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    width: 20%;
+    height: 15%;
+    float: right;
+}
+.in{
+    padding: 30px;
+}
+.div-1 {
+    background-color: #2779a7;
+}
+.card-image1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    width: 12%;
+    height: 15%;
+    float: right;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+        width: 18%;
+        height: 15%;
+        float: left;
+}
+.card-image2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 12%;
+    height: 15%;
+    float: right;
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+        width: 26%;
+        height: 15%;
+        float: left;
+}
+.head1{
+    padding: 10px;
+    margin: 20px;
+}
